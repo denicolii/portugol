@@ -1,0 +1,33 @@
+Algoritmo "aplicação_de_desconto"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Cleberson
+// Descrição   : Aplica um desconto de 25% casa aja um código promocional
+// Autor(a)    : denicoli
+// Data atual  : 08/11/2022
+Var
+nome: caracter
+valorinicio: real
+codigo: caracter
+valortotal: real
+desconto: real
+
+
+Inicio
+escreval ("Autora: Denicoli")
+escreval("")
+escreva ("digite o valor do produto: ")
+leia (valorinicio)
+escreva ("Digite o código promocional: ")
+leia (codigo)
+se (codigo = "VBFMZB") ou (codigo = "HT2Y8E") entao
+   escreval ("você possui 25% de desconto neste produto!")
+     desconto <- (valorinicio*0.25)
+     valortotal <- (valorinicio-desconto)
+     escreval ("O valor total com o desconto aplicado é de:", valortotal, " reais.")
+   senao
+        escreva ("você não possui desconto para este produto")
+   
+   fimse
+        escreva ("Boas compras!")
+
+Fimalgoritmo

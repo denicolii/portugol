@@ -1,0 +1,32 @@
+algoritmo "desconto"
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 08/11/2022
+Var
+nome : caracter
+codigo : inteiro
+valorinteiro: real
+desconto : real
+total: real
+ValorPorcDesconto: real
+ValorRealDesconto: real
+
+
+Inicio
+escreva ("Nome: ")
+leia (nome)
+escreva ("digite o código do produto: ")
+leia (codigo)
+escreva ("Digite o valor do produto: ")
+leia (valorinteiro)
+escreva ("Digite a porcentagem de desconto: ")
+leia (desconto)
+escreva ("O valor total a pagar é de: ")
+ValorPorcDesconto <- (desconto/100)
+ValorRealDesconto <-  (valorinteiro*ValorPorcDesconto)
+total <- (valorinteiro-ValorRealDesconto)
+escreva (total)
+
+
+
+
+Fimalgoritmo

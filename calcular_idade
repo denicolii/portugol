@@ -1,0 +1,25 @@
+Algoritmo "calcular_idade"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Cleberson
+// Descrição   : Calcular a idade de uma pessoa
+// Autor(a)    : denicoli
+// Data atual  : 08/11/2022
+Var
+anoNasc: inteiro
+anoAtual: inteiro
+resultado : inteiro
+nome: caracter
+
+Inicio
+escreva ("Digite seu nome: ")
+leia (nome)
+escreva ("Digite o ano em que nasceu: ")
+leia (anoNasc)
+escreva ("Digite o ano em que você está: ")
+leia (anoAtual)
+resultado <- (anoAtual-anoNasc)
+Escreva ("Você nasceu no ano de: ",(resultado))
+
+
+
+Fimalgoritmo

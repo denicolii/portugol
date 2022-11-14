@@ -1,0 +1,33 @@
+Algoritmo "equação do segundo grau"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : denicoli
+// Data atual  : 10/11/2022
+Var
+a : inteiro
+b: inteiro
+c: inteiro
+delta: real
+xlinha: real
+x2linhas: real
+
+Inicio
+escreva("Digite o A: ")
+leia (a)
+escreva ("Digite o B: ")
+leia (b)
+escreva ("Digite o C: ")
+leia (c)
+delta <- ((b*b) - 4* a * c)
+se delta > 0  entao
+escreval ("O delta da equação é igual a: ", delta)
+xlinha <- (- b + raizq(delta))/ (2*a)
+escreval ("X linha é igual a: ",xlinha)
+x2linhas <- (- b - raizq (delta))/ (2*a)
+escreva ("X duas linhas é igual a: ",x2linhas)
+senao
+escreva ("Não existem raízes reais para esta equação")
+ Fimse
+
+Fimalgoritmo

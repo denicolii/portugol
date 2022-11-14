@@ -1,0 +1,33 @@
+Algoritmo "calculos"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Denicoli
+// Data atual  : 10/11/2022
+Var
+a : real
+b: real
+opcao: inteiro
+
+
+Inicio
+escreva ("Digite um número ")
+leia (a)
+escreva ("escreva outro número ")
+leia (b)
+escreva ("O que deseja fazer com esses números? ")
+escreval ("Digite 1 para soma")
+escreval ("Digite 2 para subtração")
+escreval ("Digite 3 para divisão")
+leia (opcao)
+escolha opcao
+caso 1
+escreva (a+b)
+caso 2
+escreva (a-b)
+caso 3
+escreva (a/b)
+
+fimescolha
+
+Fimalgoritmo

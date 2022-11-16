@@ -1,7 +1,7 @@
 Algoritmo "IMC"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : denicoli
 // Data atual  : 10/11/2022
 Var
@@ -15,24 +15,24 @@ leia (peso)
 escreval ("Digite sua altura em metros: ")
 leia (altura)
 resposta <- peso/ (altura*altura)
-escreval ("Seu IMC é de ", resposta:2:1)
+escreval ("Seu IMC Ã© de ", resposta:2:1)
                 se (resposta <= 16.9) entao
-        escreva ("você está muito abaixo do seu peso ideal, procure um nutricionista!")
+        escreva ("vocÃª estÃ¡ muito abaixo do seu peso ideal, procure um nutricionista!")
         senao
                 se (resposta = 17) ou (resposta <= 18.4) entao
-        escreva ("você está  abaixo do seu peso ideal, procure um nutricionista!")
+        escreva ("vocÃª estÃ¡  abaixo do seu peso ideal, procure um nutricionista!")
         senao
                 se (resposta = 18.5) ou (resposta <= 24.9) entao
-        escreva ("Parabéns, você está no peso ideal")
+        escreva ("ParabÃ©ns, vocÃª estÃ¡ no peso ideal")
         senao
                 se (resposta = 25) ou (resposta <= 29.9) entao
-        escreva ("Obesidade grau 1, procure um médico!")
+        escreva ("Obesidade grau 1, procure um mÃ©dico!")
         senao
                 se (resposta = 35) ou (resposta <= 40) entao
-         escreva ("Obesidade grau 2, procure um médico!")
+         escreva ("Obesidade grau 2, procure um mÃ©dico!")
          senao
                 se (resposta >= 40.1) entao
-         escreva ("Obesidade grau III, procure um médico urgentemente!")
+         escreva ("Obesidade grau III, procure um mÃ©dico urgentemente!")
                 
         fimse
         fimse
